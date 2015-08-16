@@ -1,0 +1,27 @@
+# comment01
+
+# [web-servers]
+dummy_web01
+dummy_web02
+
+[web-servers] # comment02
+web01
+   web02
+
+web03 # comment03
+
+ [db-servers]
+db01
+# db02
+db03
+
+# [cache-servers]
+# dummy_cache01
+# dummy_cache02
+# dummy_cache03
+
+[cache-servers]
+cache01
+cache02
+cache03
+
