@@ -19,11 +19,22 @@ Or install it yourself as:
 
 ## Usage
 
+* get items on specified section
+
 ```
 require 'inventoryfile'
 
 parser = Inventoryfile::Parser.new("PATH_TO_FILE")
-parser.parse("SECTION_NAME")
+parser.items("SECTION_NAME")
+```
+
+* get sections
+
+```
+require 'inventoryfile'
+
+parser = Inventoryfile::Parser.new("PATH_TO_FILE")
+parser.sections
 ```
 
 ## Contributing
